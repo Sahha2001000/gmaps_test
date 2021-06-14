@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(223, 14, 14);
+    padding: 20px;
+    border: 1px solid rgb(68, 16, 16);
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+}
+.all {
+    display: flex;
+    justify-content: center;
+}
+.btn_region {
+    font-size: 20px;
+    font-weight: 900;
+    display: block;
+    border: 3px solid #000;
+    margin: 20px;
+    padding: 10px;
+    transition: 1s all;
+}
+.btn_region:hover {
+ background: rgb(151, 68, 68);
+ color: #fff;
+}
