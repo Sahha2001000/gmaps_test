@@ -52,6 +52,7 @@ console.log(text)
 for (let i = 0; i < listBtn.length; i++) {
     console.log(i)
     listBtn[i].addEventListener('click', function () {
+        mapWindow.src = mapsSrc [i];
         text.innerText = mapsValue[i];
     }, false);
 }
